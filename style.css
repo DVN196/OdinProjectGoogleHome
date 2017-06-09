@@ -1,0 +1,48 @@
+#headbar {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: 11pt;
+    clear: both;        
+}
+#headbar a {
+    padding: 3px 2px;
+    vertical-align: top;
+}
+#headbar a:hover {
+    background-color: grey;
+}
+
+.main {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: auto;        
+}
+
+input {
+    height: 35px;
+}
+
+#bottombar {
+    position: fixed;
+    background-color:silver;
+    padding: 10px 5px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#bottombar a{
+    padding: 3px 3px;
+}
+
+#bottombar a:hover {
+    text-decoration: underline;    
+}
+
+#right_side{
+    float: right;
+}
